@@ -15,7 +15,10 @@ class HomeHeader extends StatelessWidget {
         _BuildSearchBox(),
         _IconBtnWithCounter(
           icon: Icons.menu,
-          press: () {},
+          press: () {
+            print('Hola?');
+            return Drawer();
+          },
         )
       ],
     );
